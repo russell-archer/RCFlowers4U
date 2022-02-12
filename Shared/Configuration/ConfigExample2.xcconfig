@@ -1,0 +1,12 @@
+Your app's RevenueCat API Key should be stored in a .xcconfig file.
+
+- Create a file named Config.xcconfig in the Shared/Configuration folder
+- The project is set to use this .xcconfig file for both debug and release builds
+- Note that files with a .xcconfig extension are EXCLUDED from the Git repo via .gitignore
+- The APIKey setting behaves as a property which can be accessed at runtime as follows:
+
+if let apiKey = Bundle.main.infoDictionary?["APIKey"] as? String { ... }
+
+- The Config.xcconfig file should contain the following line:
+
+APIKey = "paste-your-api-here"
