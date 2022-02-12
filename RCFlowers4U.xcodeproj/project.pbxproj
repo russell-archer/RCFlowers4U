@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680EDE3427B7E43300D71A12 /* StoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680EDE3127B7E43300D71A12 /* StoreConstants.swift */; };
+		680EDE3527B7E43300D71A12 /* StoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680EDE3127B7E43300D71A12 /* StoreConstants.swift */; };
+		680EDE3627B7E43300D71A12 /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 680EDE3227B7E43300D71A12 /* Products.plist */; };
+		680EDE3727B7E43300D71A12 /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 680EDE3227B7E43300D71A12 /* Products.plist */; };
+		680EDE3827B7E43300D71A12 /* StoreConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680EDE3327B7E43300D71A12 /* StoreConfiguration.swift */; };
+		680EDE3927B7E43300D71A12 /* StoreConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680EDE3327B7E43300D71A12 /* StoreConfiguration.swift */; };
+		680EDE3C27B7E58800D71A12 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 680EDE3B27B7E58800D71A12 /* OrderedCollections */; };
+		680EDE3E27B7E5A100D71A12 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 680EDE3D27B7E5A100D71A12 /* OrderedCollections */; };
 		688334C327B7E15900856832 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688334C227B7E15900856832 /* StoreKit.framework */; };
 		688334C527B7E16600856832 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688334C427B7E16600856832 /* StoreKit.framework */; };
 		68BF3CA527B5A0C900740F2A /* RCFlowers4UApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BF3C9527B5A0C700740F2A /* RCFlowers4UApp.swift */; };
@@ -18,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		680EDE3127B7E43300D71A12 /* StoreConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreConstants.swift; sourceTree = "<group>"; };
+		680EDE3227B7E43300D71A12 /* Products.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
+		680EDE3327B7E43300D71A12 /* StoreConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreConfiguration.swift; sourceTree = "<group>"; };
 		688334C227B7E15900856832 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		688334C427B7E16600856832 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		68BF3C9527B5A0C700740F2A /* RCFlowers4UApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCFlowers4UApp.swift; sourceTree = "<group>"; };
@@ -26,6 +37,7 @@
 		68BF3C9C27B5A0C900740F2A /* RCFlowers4U.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCFlowers4U.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BF3CA227B5A0C900740F2A /* RCFlowers4U.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCFlowers4U.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BF3CA427B5A0C900740F2A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		68C7114427B7E35000717683 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680EDE3C27B7E58800D71A12 /* OrderedCollections in Frameworks */,
 				688334C327B7E15900856832 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680EDE3E27B7E5A100D71A12 /* OrderedCollections in Frameworks */,
 				688334C527B7E16600856832 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +84,7 @@
 		68BF3C9427B5A0C700740F2A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				68C7114327B7E32B00717683 /* Configuration */,
 				68BF3C9527B5A0C700740F2A /* RCFlowers4UApp.swift */,
 				68BF3C9627B5A0C700740F2A /* ContentView.swift */,
 				68BF3C9727B5A0C900740F2A /* Assets.xcassets */,
@@ -94,6 +109,17 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		68C7114327B7E32B00717683 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				680EDE3227B7E43300D71A12 /* Products.plist */,
+				68C7114427B7E35000717683 /* Products.storekit */,
+				680EDE3327B7E43300D71A12 /* StoreConfiguration.swift */,
+				680EDE3127B7E43300D71A12 /* StoreConstants.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,6 +136,9 @@
 			dependencies = (
 			);
 			name = "RCFlowers4U (iOS)";
+			packageProductDependencies = (
+				680EDE3B27B7E58800D71A12 /* OrderedCollections */,
+			);
 			productName = "RCFlowers4U (iOS)";
 			productReference = 68BF3C9C27B5A0C900740F2A /* RCFlowers4U.app */;
 			productType = "com.apple.product-type.application";
@@ -127,6 +156,9 @@
 			dependencies = (
 			);
 			name = "RCFlowers4U (macOS)";
+			packageProductDependencies = (
+				680EDE3D27B7E5A100D71A12 /* OrderedCollections */,
+			);
 			productName = "RCFlowers4U (macOS)";
 			productReference = 68BF3CA227B5A0C900740F2A /* RCFlowers4U.app */;
 			productType = "com.apple.product-type.application";
@@ -158,6 +190,9 @@
 				Base,
 			);
 			mainGroup = 68BF3C8F27B5A0C700740F2A;
+			packageReferences = (
+				680EDE3A27B7E58800D71A12 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = 68BF3C9D27B5A0C900740F2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -173,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680EDE3627B7E43300D71A12 /* Products.plist in Resources */,
 				68BF3CA927B5A0C900740F2A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680EDE3727B7E43300D71A12 /* Products.plist in Resources */,
 				68BF3CAA27B5A0C900740F2A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680EDE3827B7E43300D71A12 /* StoreConfiguration.swift in Sources */,
 				68BF3CA727B5A0C900740F2A /* ContentView.swift in Sources */,
 				68BF3CA527B5A0C900740F2A /* RCFlowers4UApp.swift in Sources */,
+				680EDE3427B7E43300D71A12 /* StoreConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680EDE3927B7E43300D71A12 /* StoreConfiguration.swift in Sources */,
 				68BF3CA827B5A0C900740F2A /* ContentView.swift in Sources */,
 				68BF3CA627B5A0C900740F2A /* RCFlowers4UApp.swift in Sources */,
+				680EDE3527B7E43300D71A12 /* StoreConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +509,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		680EDE3A27B7E58800D71A12 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		680EDE3B27B7E58800D71A12 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 680EDE3A27B7E58800D71A12 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		680EDE3D27B7E5A100D71A12 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 680EDE3A27B7E58800D71A12 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 68BF3C9027B5A0C700740F2A /* Project object */;
 }
