@@ -10,7 +10,7 @@ This document discusses how to use **RevenueCat** to implement in-app purchases 
 
 We briefly review some background information related to in-app purchases, RevenueCat and the various options available for implementing in-app purchases. We then work through an example of how to setup RevenueCat and use the `Purchases` SDK to implement in-app purchases in a simple demo app.
 
-If you wish, you can skip the preamble and jump straight to [[#Getting started]] with the demo.
+If you wish, you can skip the preamble and jump straight to [Getting started](#Getting-started) with the demo.
 
 This document assumes you have basic familiarity with App Store Connect, Xcode, Swift and SwiftUI. We assume no knowledge of working with in-app purchases.
 
