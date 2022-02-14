@@ -1,6 +1,6 @@
 # In-App Purchases with RevenueCat
 
-Using **RevenueCat** to implement in-app purchases in a **SwiftUI**-based **iOS** and **macOS** demo app. 
+Using **RevenueCat** to implement in-app purchases in Xcode 13, Swift 5.5, SwiftUI, iOS 15 and macOS 12.
 
 # Introduction
 
